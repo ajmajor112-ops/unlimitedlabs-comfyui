@@ -21,10 +21,10 @@ COPY scripts/install_nodes.sh /opt/unlimitedlabs/install_nodes.sh
 RUN chmod +x /opt/unlimitedlabs/install_nodes.sh \
     && /opt/unlimitedlabs/install_nodes.sh
 
-COPY workflows/UnlimitedLabs_motion_1.0v.json \
-     /workspace/ComfyUI/user/default/workflows/UnlimitedLabs_motion_1.0v.json
-COPY workflows/UnlimitedLabs_motion_1.0v.json \
-     /opt/unlimitedlabs/workflow/UnlimitedLabs_motion_1.0v.json
+COPY workflows/UnlimitedLabs_motion_2.2v.json \
+     /workspace/ComfyUI/user/default/workflows/UnlimitedLabs_motion_2.2v.json
+COPY workflows/UnlimitedLabs_motion_2.2v.json \
+     /opt/unlimitedlabs/workflow/UnlimitedLabs_motion_2.2v.json
 
 COPY scripts/download_models.sh /opt/unlimitedlabs/download_models.sh
 COPY scripts/start.sh /opt/unlimitedlabs/start.sh
