@@ -55,3 +55,18 @@ install_node \
     "rgthree-comfy"
 
 echo "All custom nodes installed successfully."
+echo "Installing CUDA 12 compatible ONNX Runtime..."
+
+python3 -m pip uninstall -y \
+    onnxruntime \
+    onnxruntime-gpu || true
+
+python3 -m pip install --no-cache-dir \
+    "onnxruntime-gpu==1.26.0"
+
+python3 - <<'PY'
+import onnxruntime as ort
+
+print("ONNX Runtime version:", ort.__version__)
+print("Available providers:", ort.get_available_providers())
+PY
