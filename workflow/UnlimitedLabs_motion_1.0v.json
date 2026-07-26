@@ -1548,7 +1548,7 @@
       ],
       "size": [
         302.64596454827597,
-        826.2593777105646
+        310
       ],
       "flags": {
         "collapsed": false,
@@ -1947,7 +1947,13 @@
       "mode": 0,
       "inputs": [],
       "outputs": [],
-      "properties": {},
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.7",
+          "input_ue_unconnectable": {}
+        }
+      },
       "widgets_values": [
         "## ⬇️ DROP YOUR REFERENCE VIDEO HERE ⬇️\n\n### Load a video with the motion you want your character to perform.\n\n### For best results use static camera footage - dance, close-up, seated pose, expressive scenes. Avoid camera movement, zooms, and scene cuts.\n"
       ],
@@ -1972,7 +1978,13 @@
       "mode": 0,
       "inputs": [],
       "outputs": [],
-      "properties": {},
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.7",
+          "input_ue_unconnectable": {}
+        }
+      },
       "widgets_values": [
         "## ⬇️ DROP YOUR MODEL'S IMAGE HERE ⬇️\n\n### Your character's pose MUST match the first frame of the reference video.\n\n### You can generate a matching pose using Nano Banana or any image generation tool of your choice. The closer the pose match - the better the result.\n"
       ],
@@ -1987,7 +1999,7 @@
         5499.595782371994
       ],
       "size": [
-        305.5419921875,
+        458.447265625,
         50
       ],
       "flags": {
@@ -1998,7 +2010,7 @@
       "mode": 0,
       "inputs": [],
       "outputs": [],
-      "title": "DREAM OFM",
+      "title": "UNLIMITEDLABS AI",
       "properties": {
         "fontSize": 50,
         "fontFamily": "Arial",
@@ -3641,13 +3653,13 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.630394086312919,
+      "scale": 0.46194541737924744,
       "offset": [
-        9962.521153754551,
-        -5419.174823971788
+        10027.933640878242,
+        -5479.832681240047
       ]
     },
-    "frontendVersion": "1.39.19",
+    "frontendVersion": "1.41.21",
     "workflowRendererVersion": "LG",
     "node_versions": {
       "ComfyUI-WanVideoWrapper": "5a2383621a05825d0d0437781afcb8552d9590fd",
